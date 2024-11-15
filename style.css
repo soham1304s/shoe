@@ -524,34 +524,6 @@ footer a:hover{
     color: var(--first-gra-clr);
 }
 
-.clr-one{
-    animation: changing 2.5s linear infinite;
-}
-.clr-two{
-    animation: changing 2.5s linear infinite;
-
-}
-@keyframes changing {
-    0%{
-        background-color: #c32bfb;
-    }
-    40%{
-        background-color: #ff21ff;
-        opacity: .5;
-    }
-    60%{
-        opacity: .4;
-        background-color: #cc41ff;
-    }
-    80%{
-        opacity: .6;
-        background-color: #b60af5;
-    }
-    100%{
-        background-color: #c32bfb;
-    }
-}
-
 
 /* responsive website code */
 @media screen and (max-width:600px){
